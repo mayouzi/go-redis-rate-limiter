@@ -3,7 +3,7 @@
 ## Install
 
 ```shell
-go get https://github.com/mayouzi/go-redis-rate-limiter
+go get github.com/mayouzi/go-redis-rate-limiter
 ```
 
 ## Usage
