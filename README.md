@@ -40,17 +40,19 @@ func main() {
 	}
 	limiter, err := rate.NewRateLimiter(client, 20, 1, resource)
 	if err != nil {
-		panic(err)
+            panic(err)
 	}
 
 	result, err := limiter.Usage(key)
 	if err != nil {
-		panic(err)
+            panic(err)
 	}
+
 	if result.Pass {
-		log.Printf("pass, already number: %d", result.Usage)
-    } else {
-		log.Printf("need wailt: %v", result.Wait)
+            log.Printf("pass, already number: %d", result.Usage)
+        } else {
+            log.Printf("need wailt: %v", result.Wait)
+        }
     }
 }
 ```

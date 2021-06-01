@@ -1,4 +1,4 @@
-module go-redis-rate-limiter
+module go_redis_rate_limiter
 
 go 1.16
 
