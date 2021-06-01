@@ -1,4 +1,4 @@
-package redis_rate_limiter
+package go_redis_rate_limiter
 
 import (
 	"context"

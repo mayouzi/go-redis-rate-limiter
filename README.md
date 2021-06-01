@@ -14,7 +14,7 @@ package main
 import (
 	"fmt"
 	"github.com/go-redis/redis/v8"
-	rate "github.com/mayouzi/redis_rate_limiter"
+	rate "github.com/mayouzi/go_redis_rate_limiter"
 	"log"
 )
 

@@ -1,4 +1,4 @@
-module github.com/mayouzi/redis-rate-limiter
+module go-redis-rate-limiter
 
 go 1.16
 
